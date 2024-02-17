@@ -3,7 +3,7 @@
 
 A prime number is a number that is only divisible by 1 and itself, for example, `7`. An [emirp](https://en.wikipedia.org/wiki/Emirp) is a prime number that results in a different prime when its decimal digits are reversed. For example, `107` and `701` are a pair of emirps, and `3,049` and `9,403`.
 
-Palindromic numbers are not emirps.`101` is a prime and its reverse is itself -- it is not an emirp.
+Palindromic numbers are not emirps. `101` is a prime and its reverse is itself -- it is not an emirp.
 
 Your task for this challenge is write a generator that will add up all the first `n` emirps. To be precise, you should write a generator `emirp` which takes a `@ud` number `n` as an input, and returns a `@ud` number which is the sum of the first `n` emirps.
 
